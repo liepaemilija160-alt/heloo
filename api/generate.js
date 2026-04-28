@@ -1,1 +1,5 @@
-
+export default async function handler(req, res) {
+  res.status(200).json({
+    image: "https://via.placeholder.com/300"
+  });
+}
