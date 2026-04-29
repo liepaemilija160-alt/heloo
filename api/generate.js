@@ -1,5 +1,5 @@
-export default async function handler(req, res) {
-  return res.status(200).json({
-    image: "https://via.placeholder.com/300"
+export default function handler(req, res) {
+  res.status(200).json({
+    image: "https://picsum.photos/400"
   });
 }
